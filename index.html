@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Document</title>
+  <link rel="stylesheet" href="/assets/index-a238dd9a.css">
+</head>
+
+<body class="">
+    <!-- header -->
+    <header class="bg-purple-600">
+        <nav class="  mx-5 md:mx-10  py-4  flex items-center justify-between ">
+            <div class="logo uppercase">
+                <h2 class=" text-white font-semibold">DhanRaj</h2>
+            </div>
+            <ul class=" hidden sm:flex justify-end flex-1 gap-12 text-white text-sm uppercase ">
+                <li class=" cursor-pointer hover:font-semibold">Home</li>
+                <li class=" cursor-pointer">Projects</li>
+                <li class=" cursor-pointer">About</li>
+                <li class=" cursor-pointer">Contact</li>
+            </ul>
+            <div class="menu  sm:hidden">
+                <i class=" text-xl text-white fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class=" mt-5 text-center text-2xl">
+        <h2 id="greet">Hi Geeks</h2>
+        <hr class=" mt-10">
+    </section>
+
+    <section class="about h-[50vh] items-center mx-3 my-3 text-center sm:flex gap-3 " id="about">
+        <div class="left flex justify-center flex-1 ">
+            <img class=" h-1/2 w-1/2 rounded shadow-md" src="https://via.placeholder.com/150" alt="">
+        </div>
+        <div class="righ flex-1 px-10">
+            <h2 class=" text-3xl uppercase ">About Me</h2>
+            <p class=" text-md sm:text-md md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                saepe possimus sit ut quos reprehenderit minima exercitationem aperiam excepturi voluptatibus!</p>
+        </div>
+
+    </section>
+    <hr>
+    <section>
+        <h2 class=" text-center font-bold text-3xl">Projects</h2>
+    </section>
+    <section class="projects sm:flex flex-wrap">
+        <div class="card mx-auto  my-6  p-2  rounded shadow ">
+            <div class="thumbnail">
+                <img class="" src="https://via.placeholder.com/150" alt="">
+            </div>
+            <div class="content p-2 overflow-auto ">
+                <h2 class=" font-bold ">Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card mx-auto  my-6  p-2  rounded shadow ">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="">
+            </div>
+            <div class="content p-2 overflow-auto ">
+                <h2 class=" font-bold ">Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card mx-auto  my-6  p-2  rounded shadow ">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="">
+            </div>
+            <div class="content p-2 overflow-auto ">
+                <h2 class=" font-bold ">Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card mx-auto my-6 p-2 rounded shadow ">
+            <div class="thumbnail">
+                <img src="https://via.placeholder.com/150" alt="">
+            </div>
+            <div class="content p-2 overflow-auto ">
+                <h2 class=" font-bold ">Title</h2>
+                <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+    <hr>
+    <div class="contact mx-8 my-2 flex flex-col justify-center  ">
+        <h2 class=" text-center font-bold text-xl">contact me</h2>
+        <div class="div flex flex-col gap-1 sm:w-3/4 ">
+            <label for="name">Name</label>
+            <input class=" border  rounded px-5 py-2" type="text" id="name" placeholder="enter your name">
+            <label for="email">Email</label>
+            <input class=" border  rounded px-5 py-2" type="email" id="email" placeholder="enter your email">
+            <label for="name">Number</label>
+            <input class=" border  rounded px-5 py-2" type="number" id="number" placeholder="enter your number">
+            <label for="feedback">Message</label>
+            <textarea class="border  rounded px-5" name="" id="message" cols="30" rows="10"
+                placeholder="enter your message"></textarea>
+        </div>
+    </div>
+
+
+    <footer class=" text-white bg-purple-800 px-5 md:px-10 py-2">
+        <div class="socialmedia ">
+            <ul class="flex gap-5">
+                <li class=" cursor-pointer hover:underline">Linkedin</li>
+                <li class=" cursor-pointer hover:underline">Twitter</li>
+                <li class=" cursor-pointer hover:underline">Github</li>
+            </ul>
+        </div>
+        <hr class=" w-3/4 sm:w-1/2 md:w-1/4 mt-2">
+        <div class="credit flex items-center justify-between gap-4">
+            <p>copyright@2023 DhanRaj</p>
+
+            <a href="#"> <i class=" bg-purple-600 rounded-full p-4 px-6  text-2xl fa-solid fa-arrow-up"></i></a>
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+ var hour=new Date();
+        if(hour.getHours()<12){
+
+            document.getElementById("greet").innerHTML = "Good Morning !";
+        }
+        else{
+            document.getElementById("greet").innerHTML = "Good Evening !";
+        }
+        console.log(hour.getHours());
+    </script>
+
+</body>
+
+</html>
